@@ -1,5 +1,7 @@
-WING Access 1.0.0
+WING Access 1.0.1
 2026-11-10
 ================
 
-First public release.
+- Clarified control names for output delay, EQ, dynamics, inserts, FX and setup.
+- Made Matrix Direct Input choices easier to read.
+- Updated the English and Korean documentation.

@@ -2,7 +2,7 @@
 
 Keyboard and screen-reader control for the Behringer WING family, developed by **Seongyyeol Jang**.
 
-[Download 1.0.0](https://github.com/jsy9180/wing-access/releases/tag/v1.0.0) · [Report a problem](https://github.com/jsy9180/wing-access/issues)
+[Download 1.0.1](https://github.com/jsy9180/wing-access/releases/tag/v1.0.1) · [Report a problem](https://github.com/jsy9180/wing-access/issues)
 
 ## Start
 
@@ -16,7 +16,7 @@ WING Access has been tested through actual use with NVDA and Sense Reader. Testi
 
 ## Terms
 
-Free for individual users. Redistribution is prohibited. Application source code is closed; this repository contains public documentation and release information only. See [LICENSE.txt](LICENSE.txt) and the [third-party notices](third-party/NOTICE.txt).
+Free for individual users. Redistribution is prohibited. See [LICENSE.txt](LICENSE.txt) and the [third-party notices](third-party/NOTICE.txt).
 
 ## 한국어
 
@@ -26,4 +26,4 @@ Windows 10/11 x64와 .NET Framework 4.8이 필요합니다. ZIP 전체를 쓰기
 
 NVDA와 센스리더에서 실제 사용 테스트를 진행했습니다. **실물 WING 시리즈 콘솔을 통한 테스트는 아직 완료되지 않았습니다.** 애플리케이션은 상당 부분 완성되었으나 실제 WING·WING Compact·WING Rack에서 추가 테스트가 필요합니다.
 
-**개인 사용자 무료·재배포 금지**입니다. 앱 소스는 비공개이며 이 저장소에는 공개 문서와 배포 정보만 제공합니다. [사용 조건](LICENSE.txt)과 [제삼자 라이선스 고지](third-party/NOTICE.txt)를 확인하십시오.
+**개인 사용자 무료·재배포 금지**입니다. [사용 조건](LICENSE.txt)과 [제삼자 라이선스 고지](third-party/NOTICE.txt)를 확인하십시오.
