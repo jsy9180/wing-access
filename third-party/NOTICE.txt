@@ -1,0 +1,48 @@
+Third-party provenance and local changes — 2026-11-10
+====================================================
+
+libwing 1.0.6
+https://github.com/dannyfiresnake/libwing
+Source archive revision: 36d713e (archive root dannyfiresnake-libwing-36d713e).
+The repository LICENSE contains Apache License 2.0. Cargo.toml declares MIT.
+Upstream metadata is retained in the private development tree; this distribution
+preserves the actual license text without rewriting the upstream discrepancy.
+The actual LICENSE is also copied to libwing-LICENSE.txt and licenses\libwing.
+
+Files changed locally:
+  src/ffi.rs       Added wing_console_toggle (documented native wToggleToken),
+                  wa_clone, wa_shutdown, wa_read_json and wa_release_meter
+                  C ABI functions.
+                  JSON conversion delegates to the existing node serializer;
+                  definition events include parent_id for path reconstruction.
+  libwing.h        Synchronized added declarations, size_t include, and actual
+                  meter-read signature (upstream had an unused extra argument).
+  src/console.rs   Native integer toggle encoding (0xD8);
+                  TCP connection/write timeouts (three seconds);
+                  last-owner-only stream shutdown on Drop;
+                  explicit shutdown; Windows TimedOut handling; extended descriptor
+                  length handling with a size bound; escaped numeric payloads;
+                  escaped meter port/report identifiers; meter read timeout return;
+                  malformed/truncated meter packet, source-IP and full-report-ID checks;
+                  active meter report tracking/release without ID reuse; UDP socket
+                  reads outside the parameter mutex with a 100 ms timeout.
+                  Widened 256-byte string / 65536-index length arithmetic;
+                  rejected oversized strings before native encoding.
+  Cargo.toml       Retained runtime library dependencies, omitted GUI example/dev
+                  dependencies for this library-only build.
+  Cargo.lock       Updated for the library dependency set.
+
+The native protocol implementation was reused, not replaced with a fresh parser.
+The generated src/propmap.rs was not hand-edited. data\demo.jsonl originates from
+the upstream Compact firmware 3.0.5 propmap.jsonl, expanded with the pinned
+3.1.2 protocol/editor data described in data/schema-version.json. Vendor binaries and protocol/manual documents are not bundled. References are
+linked from the user guide's Credits chapter.
+
+The dependency lockfile is retained in private development records. License texts
+collected from the actual installed crate sources are in
+licenses\<crate-version>. These include runtime and build/procedural-macro crates.
+Rust's distributed copyright/third-party notices and its bundled runtime notices
+are preserved under licenses\rust-runtime. License collection retains filenames
+and original text instead of substituting a generic dependency license summary.
+
+No azaosc, MXAccess32, WING firmware image, manual PDF or WingEmul binary is bundled.

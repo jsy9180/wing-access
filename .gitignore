@@ -1,0 +1,11 @@
+/bin/
+/data/
+/src/
+/tests/
+/tools/
+/research/
+/verification/
+/user-data/
+/library/
+*.zip
+*.pdb

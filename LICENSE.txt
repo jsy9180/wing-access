@@ -1,0 +1,26 @@
+WING Access 1.0 — Proprietary License / 전용 사용권
+Copyright (c) 2026 Seongyyeol Jang
+
+English
+-------
+Individual users may use WING Access free of charge.
+Redistribution of WING Access, whether modified or unmodified, is not permitted.
+The WING Access application source code is not published or licensed for distribution.
+Uses outside this permission require permission from the copyright holder.
+
+These terms apply to WING Access's own software and documentation. Included
+third-party components retain their respective licenses and rights. These terms
+do not restrict rights granted by those licenses. See third-party/NOTICE.txt
+and third-party/licenses/ for the applicable notices and license texts.
+
+한국어
+------
+개인 사용자는 WING Access를 무료로 사용할 수 있습니다.
+WING Access는 수정 여부와 관계없이 재배포할 수 없습니다.
+WING Access 애플리케이션의 소스 코드는 공개하거나 배포를 허용하지 않습니다.
+위 허용 범위를 벗어나는 사용은 저작권자의 허가가 필요합니다.
+
+이 조건은 WING Access 자체 소프트웨어와 문서에 적용합니다. 포함된 제삼자
+구성요소에는 각자의 라이선스가 적용되며 그 라이선스가 부여하는 권리를
+제한하지 않습니다. 관련 고지와 라이선스 원문은 third-party/NOTICE.txt와
+third-party/licenses/에 있습니다.

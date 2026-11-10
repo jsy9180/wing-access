@@ -1,0 +1,33 @@
+name: Bug report / 문제 제보
+description: Report an application problem / 앱 문제를 알려 주세요
+body:
+  - type: input
+    id: version
+    attributes:
+      label: WING Access version / 앱 버전
+    validations:
+      required: true
+  - type: input
+    id: console
+    attributes:
+      label: Console model and firmware / 콘솔 모델·펌웨어
+      description: Write Offline if no console was connected / 연결하지 않았다면 Offline
+  - type: input
+    id: reader
+    attributes:
+      label: Screen reader and version / 스크린 리더·버전
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps, expected result and actual result / 재현 순서·기대 결과·실제 결과
+      description: Include the page and control name. Remove personal IP addresses and show contents before attaching files. / 페이지·컨트롤을 적고 첨부 전에 개인 IP 주소·Show 내용을 확인하십시오.
+    validations:
+      required: true
+  - type: dropdown
+    id: offline
+    attributes:
+      label: Does it also happen offline? / 오프라인에서도 발생합니까?
+      options:
+        - Not checked / 확인하지 않음
+        - Yes / 예
+        - No / 아니요
