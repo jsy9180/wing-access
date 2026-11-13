@@ -1,7 +1,9 @@
-WING Access 1.0.1
-2026-11-10
-================
+WING Access 1.0.2
+2026-11-14
+=================
 
-- Clarified control names for output delay, EQ, dynamics, inserts, FX and setup.
-- Made Matrix Direct Input choices easier to read.
-- Updated the English and Korean documentation.
+- Improved snapshot and preset loading reliability.
+- Fixed cancellation and write-lock handling of pending edits, and preserved
+  slider dragging when a previous edit completes.
+- Corrected read-only status controls in offline mode.
+- Simplified the user guides.

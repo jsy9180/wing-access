@@ -11,8 +11,12 @@ Modification notice:
 - src/ffi.rs and libwing.h: additional application interface functions and
   corrected declarations.
 - src/console.rs: connection handling, parameter encoding, validation and
-  meter reception changes.
-- Cargo.toml and Cargo.lock: dependency changes for the library build.
+  meter reception changes, including consecutive escape-byte decoding.
+- src/node.rs: checked decoding of received parameter definitions; malformed
+  records return an error instead of panicking across the application interface.
+- Cargo.toml and Cargo.lock: dependency changes and a reference to the supplied
+  LICENSE file in the package metadata.
+- README.md and REFERENCE-DATA.txt: notes on the included reference data.
 
 License and copyright notices for dependencies are included in
 licenses/<crate-version>/. Rust runtime notices are in licenses/rust-runtime/.
