@@ -1,10 +1,8 @@
-WING Access 1.1.0
+WING Access 1.2.0
 2026-11-14
-=================
 
-- Added console lock and unlock commands, with Ctrl+Alt+L to unlock and a visible locked status.
-- Improved model-specific controls and named targets for console fader assignments.
-- Added an IP address, subnet mask and gateway editor with confirmation before applying network settings.
-- Improved console identification and name updates during reconnection.
-- Grouped console state saving and autosave settings under Console management.
-- Snapshot and snippet recalls preserve the current RTA source, tap, decay and detector settings.
+- Copy and paste strip settings, processing sections, Mix pages and individual values.
+- Undo setting changes with Ctrl+Z; choose 10–100 history entries in Options.
+- Corrected FX tap tempo and invalid numeric entry handling.
+- Refined offline initial settings and empty FX slot navigation.
+- Added the built-in DAW presets to Library.

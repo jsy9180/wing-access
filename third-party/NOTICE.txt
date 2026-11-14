@@ -22,3 +22,11 @@ Modification notice:
 License and copyright notices for dependencies are included in
 licenses/<crate-version>/. Rust runtime notices are in licenses/rust-runtime/.
 These components retain their respective license terms and rights.
+
+Behringer WING initial settings and DAW control presets
+https://www.behringer.com/en/wing
+
+The offline initial settings and eight DAW control presets originate from WING
+firmware 3.1.2 and WING Edit 3.3.4. Preset values are unchanged; an empty audio-data
+section was added to the partial DAW snapshots for file-format compatibility.
+These materials and trademarks remain the property of their respective owners.
