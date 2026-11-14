@@ -1,6 +1,5 @@
-WING Access 1.2.1
+WING Access 1.2.2
 2026-11-14
 
-- Reorganized menus by task, with submenus for file types, user layers and bookmark saving.
-- Improved menu display of customized keyboard shortcuts.
-- Updated the English and Korean guides.
+- Fixed errors and unresponsive controls after changing FX or processor models.
+- Improved Undo reliability when a change replaces related settings or coincides with an external change.
