@@ -1,8 +1,6 @@
-WING Access 1.2.0
+WING Access 1.2.1
 2026-11-14
 
-- Copy and paste strip settings, processing sections, Mix pages and individual values.
-- Undo setting changes with Ctrl+Z; choose 10–100 history entries in Options.
-- Corrected FX tap tempo and invalid numeric entry handling.
-- Refined offline initial settings and empty FX slot navigation.
-- Added the built-in DAW presets to Library.
+- Reorganized menus by task, with submenus for file types, user layers and bookmark saving.
+- Improved menu display of customized keyboard shortcuts.
+- Updated the English and Korean guides.
