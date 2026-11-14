@@ -14,6 +14,7 @@ Modification notice:
   meter reception changes, including consecutive escape-byte decoding.
 - src/node.rs: checked decoding of received parameter definitions; malformed
   records return an error instead of panicking across the application interface.
+  Live definitions emit explicit true/false read-only flags.
 - Cargo.toml and Cargo.lock: dependency changes and a reference to the supplied
   LICENSE file in the package metadata.
 - README.md and REFERENCE-DATA.txt: notes on the included reference data.

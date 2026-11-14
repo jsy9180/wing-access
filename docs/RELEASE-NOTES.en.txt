@@ -1,9 +1,10 @@
-WING Access 1.0.2
+WING Access 1.1.0
 2026-11-14
 =================
 
-- Improved snapshot and preset loading reliability.
-- Fixed cancellation and write-lock handling of pending edits, and preserved
-  slider dragging when a previous edit completes.
-- Corrected read-only status controls in offline mode.
-- Simplified the user guides.
+- Added console lock and unlock commands, with Ctrl+Alt+L to unlock and a visible locked status.
+- Improved model-specific controls and named targets for console fader assignments.
+- Added an IP address, subnet mask and gateway editor with confirmation before applying network settings.
+- Improved console identification and name updates during reconnection.
+- Grouped console state saving and autosave settings under Console management.
+- Snapshot and snippet recalls preserve the current RTA source, tap, decay and detector settings.
