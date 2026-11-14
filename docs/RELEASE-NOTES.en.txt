@@ -1,5 +1,8 @@
-WING Access 1.2.2
-2026-11-14
+WING Access 1.2.3
+2026-11-15
 
-- Fixed errors and unresponsive controls after changing FX or processor models.
-- Improved Undo reliability when a change replaces related settings or coincides with an external change.
+- Fixed arrow-key adjustments from the minimum Fader or Send level.
+- Improved value confirmation and Undo when the console rounds a numeric setting.
+- Corrected Send control availability after Bus mode or Pan link changes.
+- Fixed recalling a Bus preset to a different Bus.
+- Corrected Monitor and Talkback level names on WING Rack.
