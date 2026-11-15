@@ -1,9 +1,7 @@
-WING Access 1.2.4
+WING Access 1.2.5
 2026-11-15
 
-- Fixed a connection interruption when receiving certain console text values.
-- Fixed page updates after changing a source group.
-- Enter on VSS3 Preset now loads or reloads the selected preset; the separate Load button was removed.
-- Network addresses are edited in one dialog, without duplicate address controls.
-- Corrected scene names in the console Show list.
-- Further Show commands are briefly rejected while a Show action is in progress, then become available again when it finishes.
+- Grouped monitor controls in Monitors and solo preferences in Solo system.
+- Reorganized Audio, Surface, Metering, RTA and Brightness settings, and the Monitor A/B EQ and polarity/delay pages.
+- Preserved bookmarks and page presets with the updated layout, and adjusted copying to follow the displayed pages.
+- Updated the English and Korean user guides.
