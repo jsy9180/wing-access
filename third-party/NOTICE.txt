@@ -12,6 +12,7 @@ Modification notice:
   corrected declarations.
 - src/console.rs: connection handling, parameter encoding, validation and
   meter reception changes, including consecutive escape-byte decoding.
+- src/text.rs and src/lib.rs: shared eight-bit protocol text decoding.
 - src/node.rs: checked decoding of received parameter definitions; malformed
   records return an error instead of panicking across the application interface.
   Live definitions emit explicit true/false read-only flags.

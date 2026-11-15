@@ -2,7 +2,7 @@
 
 Keyboard and screen-reader control for the Behringer WING family, developed by **Seongyyeol Jang**.
 
-[Download 1.2.3](https://github.com/jsy9180/wing-access/releases/tag/v1.2.3) · [Report a problem](https://github.com/jsy9180/wing-access/issues)
+[Download 1.2.4](https://github.com/jsy9180/wing-access/releases/tag/v1.2.4) · [Report a problem](https://github.com/jsy9180/wing-access/issues)
 
 ## Start
 
