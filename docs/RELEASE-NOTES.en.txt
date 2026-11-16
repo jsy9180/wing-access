@@ -1,8 +1,9 @@
-WING Access 1.2.6
+WING Access 1.2.7
 2026-11-16
 
-- Reset EQ and FX parameters to their defaults, with Undo support.
-- Reorganized shortcuts by task, with separate Main Sends and Mix keys.
-- Removed repeated navigation announcements within the same page.
-- Improved initial console synchronization.
-- Updated offline processor settings and the English and Korean documentation.
+- Fixed rejected On/Off changes in batch Sends and improved target selection speed.
+- Added batch Sends for Main and Matrix, source properties and remote assignments.
+- Added partial EQ/FX reset, selected strip initialization and paste to multiple targets.
+- Added mute group membership, customization copy and console fader layer editing tools.
+- Added snippet item selection and temporary snapshot recall and update scopes.
+- Improved draft preservation and conflict handling in batch dialogs; updated both user guides.

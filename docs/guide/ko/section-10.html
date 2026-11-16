@@ -3,6 +3,7 @@
 <p>스트립은 같은 종류끼리 복사합니다. 예를 들어 Channel은 Channel에, Bus는 Bus에 붙여넣습니다. 대상의 이름·색상·아이콘, 입력 설정 전체와 Insert는 유지합니다. Fader, Mute, 프로세싱, Sends, DCA·뮤트 그룹 할당을 복사하며 EQ·Gate·Dynamics 모델도 복사한 설정에 맞게 변경합니다.</p>
 <p>Mix 페이지는 Main 1 Mix에서 Main 4 Mix로, Bus 1 Mix에서 Bus 3 Mix로처럼 같은 종류의 목적지에 붙여넣습니다. 그룹을 복사하면 해당 그룹만 포함합니다. Faders 페이지 전체는 복사하지 못하지만 개별 Fader 값은 복사할 수 있습니다. Bus Sends, Main Sends, Matrix Sends는 서로 구분하며 Fader와 Send level도 서로 붙여넣지 못합니다.</p>
 <p>프로세싱 섹션은 용도가 같아야 합니다. 프로세서 파라미터 하나를 복사할 때는 모델도 같아야 합니다. FX 슬롯 복사는 모델과 파라미터를 포함하며 대상 슬롯이 해당 모델을 지원해야 합니다. Insert 할당은 대상 스트립에서 직접 선택합니다. 읽기 전용 정보와 명령은 복사하지 않습니다.</p>
+<p>Edit &gt; Paste to...에서 Targets와 Contents를 체크한 뒤 Paste를 누르면 여러 호환 대상에 적용합니다. 일반 붙여넣기의 입력·Insert·이름 등 보존 규칙은 그대로입니다.</p>
 <p>Ctrl+Z 또는 Edit &gt; Undo로 마지막 설정 작업을 되돌립니다. 화살표를 계속 누른 조작은 한 작업으로 묶고, 별도로 누른 체크박스 조작은 각각 기록합니다. 붙여넣기와 일괄 편집은 한 작업입니다. Options &gt; Undo history size에서 10~100개를 10개 단위로 선택하며 기본값은 100개입니다. 텍스트 편집 중 Ctrl+Z는 텍스트를 되돌립니다.</p>
 <p>설정이 외부에서 바뀌었으면 Undo를 중단하고 전체 기록을 지웁니다. 다음 편집부터 새로 기록합니다. 콘솔 연결 세션을 바꾸거나 앱을 종료해도 기록을 지웁니다. 기록할 수 없는 콘솔 명령을 실행할 때도 기록이 초기화됩니다. 재생·파일 작업과 콘솔 명령은 되돌릴 수 없습니다. Undo가 중단되면 이미 되돌린 값은 그 상태로 남습니다.</p>
 <p>File &gt; Page presets &gt; Save WING Access page preset...은 .wapreset 파일을 저장합니다. Save WING Access page and subpage preset...은 하위 페이지도 포함합니다. Load WING Access page preset...에서 비교 후 선택한 값을 적용합니다. 파일 프리셋은 별도의 Recall Scope를 사용하며, 클립보드의 입력·이름 제외 규칙을 적용하지 않습니다.</p></main><footer><nav class="pager" aria-label="장 이동"><a href="section-09.html">이전</a> · <a href="section-11.html">다음</a></nav></footer></body></html>
