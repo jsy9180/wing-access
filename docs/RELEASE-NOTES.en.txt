@@ -1,7 +1,8 @@
-WING Access 1.2.5
-2026-11-15
+WING Access 1.2.6
+2026-11-16
 
-- Grouped monitor controls in Monitors and solo preferences in Solo system.
-- Reorganized Audio, Surface, Metering, RTA and Brightness settings, and the Monitor A/B EQ and polarity/delay pages.
-- Preserved bookmarks and page presets with the updated layout, and adjusted copying to follow the displayed pages.
-- Updated the English and Korean user guides.
+- Reset EQ and FX parameters to their defaults, with Undo support.
+- Reorganized shortcuts by task, with separate Main Sends and Mix keys.
+- Removed repeated navigation announcements within the same page.
+- Improved initial console synchronization.
+- Updated offline processor settings and the English and Korean documentation.
