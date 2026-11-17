@@ -1,8 +1,8 @@
-WING Access 1.2.8
-2026-11-16
+WING Access 1.2.9
+2026-11-17
 
-- Corrected parameter ranges, adjustment steps and numeric choices.
-- Made offline Source gain consistent between channel Config and batch editing.
-- Updated offline controls and shared values when source assignments or settings change.
-- Fixed delay ranges, values and unit labels when changing the delay unit.
-- Corrected several processor controls and preserved their settings through Undo.
+- Added Members editing for DCAs. DCA and mute-group dialogs show existing members checked.
+- Made source and output names clearer in assignment and selection dialogs.
+- Batch editing now displays current or mixed values for the selected targets.
+- Keep displays values read-only; choose Set value to edit them.
+- Distinguished Warmth mix from Mix in the Warm Designer controls.
