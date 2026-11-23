@@ -1,8 +1,8 @@
-WING Access 1.2.9
-2026-11-17
+WING Access 1.2.10
+2026-11-23
 
-- Added Members editing for DCAs. DCA and mute-group dialogs show existing members checked.
-- Made source and output names clearer in assignment and selection dialogs.
-- Batch editing now displays current or mixed values for the selected targets.
-- Keep displays values read-only; choose Set value to edit them.
-- Distinguished Warmth mix from Mix in the Warm Designer controls.
+- Choose which channels and auxes follow the global MAIN/ALT switch in Console > Batch editing > Global input selection members.
+- Use Talkback assignments in strip Config to choose which Talk button unmutes or solos the strip.
+- Partial snippet recall checks the target processor model. Confirming edits to large snippets is faster.
+- Global safes preserves changes made elsewhere. Adding a target during batch editing uses its latest value.
+- Recording on Monitor A or B EQ and delay pages uses the selected monitor. A temporary meter subscription failure now recovers automatically.
